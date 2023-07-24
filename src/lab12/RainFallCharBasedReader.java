@@ -4,6 +4,16 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+/*
+ * This class read the daily rainfall readings from selected station from a certain source file
+ * using suitable subclasses of Reader.
+ * 
+ * This class is recreated based on RainFallDataReader.java in package exercise5
+ * 
+ * In this case, BufferedReader is used.
+ * @author Youssof Lee (B032120077)
+ */
+
 public class RainFallCharBasedReader {
 	
 	public static void main (String [] args)
