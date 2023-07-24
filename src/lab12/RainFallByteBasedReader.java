@@ -5,6 +5,15 @@ import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.HashSet;
 
+/**
+ * This program enables Processing Daily Rainfall Data from Selected Station using Byte-Based Stream
+ * The data is read in byte-based using DataInputStream class. 
+ * The data represents station id, station name, name of district and 6-days reading of daily rainfall.
+ * 
+ * @author Youssof Lee (B032120077)
+ *
+ */
+
 public class RainFallByteBasedReader {
 	
 	public static void main(String[] args) {
