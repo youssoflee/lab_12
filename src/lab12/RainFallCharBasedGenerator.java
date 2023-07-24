@@ -4,6 +4,16 @@ import java.io.FileNotFoundException;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 
+/*
+ * This class write the daily rainfall readings from selected station to a certain output file
+ * using suitable subclasses of Writer.
+ * 
+ * This class is recreated based on RainFallDataWriter.java in package exercise5.
+ * 
+ * In this case, BufferedWriter is used.
+ * @author Youssof Lee (B032120077)
+ */
+
 public class RainFallCharBasedGenerator {
 	
 	public static void main (String [] args)
