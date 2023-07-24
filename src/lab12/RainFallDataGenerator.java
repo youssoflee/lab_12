@@ -4,6 +4,21 @@ import java.io.DataOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/**
+ * Lab 12 - Programming using Java I/O Streams
+ * Exercise 5: Processing Daily Rainfall Data A Station
+ * 
+ * Task B
+ * 
+ * This program genereates data for 6 days reading of daily rainfall
+ * from station Simpang Ampat in Alor Gajah district
+ * and write these data into a certain output file named "RainFall.txt"
+ * with the help of DataOutputStream.
+ * 
+ * @author Youssof Lee (B032120077)
+ * 
+ */
+
 public class RainFallDataGenerator {
 	public static void main (String [] args)
 	{
