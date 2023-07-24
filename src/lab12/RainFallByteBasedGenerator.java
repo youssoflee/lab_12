@@ -3,6 +3,16 @@ package lab12;
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;
 
+/**
+ * This program enables Processing  Daily  Rainfall Data  from Selected Station using Byte-Based Stream
+ * The data is written in byte-based using DataOutputStream class. 
+ * 
+ * The data represents station id, station name, name of district and 6-days reading of daily rainfall.
+ * 
+ * @author Youssof Lee (B032120077)
+ *
+ */
+
 public class RainFallByteBasedGenerator {
 	
 	public static void main (String [] args)
